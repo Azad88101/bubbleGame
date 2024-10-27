@@ -1,4 +1,4 @@
-var timerFrJs = 2;
+var timerFrJs = 60;
 var score = 0;
 var no;
 
