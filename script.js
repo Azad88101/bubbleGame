@@ -22,8 +22,11 @@ function runTimer() {
       timerFrJs--;
       document.querySelector("#timer").textContent = timerFrJs;
     } else {
-      document.querySelector(".panelbtm").innerHTML = score;
-      document.querySelector(".panelbtm").style.fontSize = "30px";
+      document.querySelector(
+        ".panelbtm"
+      ).innerHTML = `<div><h1>Game Over</h1></div>
+        <div><h2>Score: ${score}</h2></div>`;
+      //   document.querySelector(".panelbtm").innerHTML = `<h2>score${score}</h2>`;
 
       document.clearInterval(interval);
     }

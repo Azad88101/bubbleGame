@@ -51,8 +51,11 @@ body {
   border-radius: 5px;
 }
 .panelbtm {
+  justify-content: center;
+  align-items: center;
   height: calc(100% - 15%);
   width: 100%;
+  flex-direction: column;
   background-color: rgb(127, 225, 225);
   display: flex;
   flex-wrap: wrap;
