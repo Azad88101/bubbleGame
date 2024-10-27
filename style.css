@@ -72,3 +72,12 @@ body {
   border-radius: 50%;
   background-color: rgb(226, 95, 95);
 }
+@media (max-width: 600px) {
+  .panelTop {
+    padding-left: 4%;
+    padding-right: 5%;
+  }
+  .elem {
+    gap: 5px;
+  }
+}
