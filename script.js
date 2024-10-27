@@ -1,4 +1,4 @@
-var timerFrJs = 60;
+var timerFrJs = 2;
 var score = 0;
 var no;
 
@@ -22,8 +22,9 @@ function runTimer() {
       timerFrJs--;
       document.querySelector("#timer").textContent = timerFrJs;
     } else {
-      document.querySelector(".panelbtm").innerHTML = "";
-      document.querySelector(".panelbtm").textContent = score;
+      document.querySelector(".panelbtm").innerHTML = score;
+      document.querySelector(".panelbtm").style.fontSize = "30px";
+
       document.clearInterval(interval);
     }
   }, 1000);
